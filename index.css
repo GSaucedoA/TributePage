@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+ul {
+  list-style: none;
+  padding: 8px;
+}
+li {
+  margin-bottom: 15px;
+}
+img,
+#main,
+#img-div,
+#tribute-link {
+  box-shadow: 0 0 8px lightgray;
+}
+
+#title,
+#main {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  line-height: 1.2;
+}
+#title {
+  background-color: rgba(0, 0, 0, 0.116);
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 4px;
+}
+#main {
+  max-width: 80%;
+  margin: 25px auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+#img-div {
+  max-width: 90%;
+  padding: 16px;
+  border-radius: 4px;
+}
+#tribute-info {
+  max-width: 90%;
+  margin: auto;
+  text-align: left;
+}
+.anio {
+  font-weight: bold;
+}
+#tribute-link {
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#tribute-link:hover {
+  background-color: lightgray;
+}
+@media all and (min-width: 769px) {
+  #main {
+    max-width: 683px;
+  }
+}
